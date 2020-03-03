@@ -54,9 +54,9 @@
 
     <div id="Search">
         <div id="SearchContent">
-            <form action="search" method="post">
-                <input type="text" name="keyword" size="14" /> <input type="submit"
-                                                                      name="searchProducts" value="Search" />
+            <form action="searchProduct" method="post">
+                <input type="text" name="keyword" size="14" />
+                <input type="submit" name="searchProducts" value="Search" />
             </form>
         </div>
     </div>

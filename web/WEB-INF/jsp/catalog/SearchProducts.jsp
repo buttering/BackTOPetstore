@@ -15,10 +15,10 @@
 	<c:forEach var="product" items="${sessionScope.productList}">
 		<tr>
 			<td>
-				<a href="viewProduct?productId=${product.productId}">${product.productId}</a>
+				<a href="viewProduct?productId=${product.productId}">${product.description}</a>
 			</td>
 			<td><b>
-				${product.description}
+				${product.productId}
 			</b></td>
 			<td>${product.name}</td>
 		</tr>

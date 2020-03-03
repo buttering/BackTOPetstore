@@ -17,7 +17,7 @@ import java.util.List;
 public class SearchProductServlet extends HttpServlet {
 
     private String keyword;
-    private static String SEARCH_PRODUCT = "";
+    private static String SEARCH_PRODUCT = "WEB-INF/jsp/catalog/SearchProducts.jsp";
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         doGet(request,response);
