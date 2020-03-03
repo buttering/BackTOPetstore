@@ -7,6 +7,9 @@
         <element id="directory" name="classes">
           <element id="module-output" name="BackTOPetstore" />
         </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="D:/mySQL/mysql-8.0.17-winx64/mysql-connector-java-8.0.17.jar" />
+        </element>
       </element>
     </root>
   </artifact>

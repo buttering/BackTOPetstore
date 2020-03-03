@@ -36,7 +36,7 @@
 
 	<tr>
 		<td>
-		<a class="Button"href="#">Add to Cart</a>
+		<a class="Button"href="#">Add to Cart!</a>
 		</td>
 	</tr>
 </table>
