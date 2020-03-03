@@ -51,5 +51,5 @@ public class CatalogService {
 
     public boolean isItemInStock(String itemId) {
         return this.itemDAO.getInventoryQuantity(itemId) > 0;
-    }
+    }//item是否有库存
 }

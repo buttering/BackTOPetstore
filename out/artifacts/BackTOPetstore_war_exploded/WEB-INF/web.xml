@@ -27,6 +27,10 @@
         <servlet-name>SearchProduct</servlet-name>
         <servlet-class>org.csu.backtopetstore.web.servlets.SearchProductServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>AddItemToCart</servlet-name>
+        <servlet-class>org.csu.backtopetstore.web.servlets.AddItemToCartServlet</servlet-class>
+    </servlet>
     
     <servlet-mapping>
         <servlet-name>MainServlet</servlet-name>
@@ -48,5 +52,8 @@
         <servlet-name>SearchProduct</servlet-name>
         <url-pattern>/searchProduct</url-pattern>
     </servlet-mapping>
-
+<servlet-mapping>
+    <servlet-name>AddItemToCart</servlet-name>
+    <url-pattern>/addItemToCart</url-pattern>
+</servlet-mapping>
 </web-app>
