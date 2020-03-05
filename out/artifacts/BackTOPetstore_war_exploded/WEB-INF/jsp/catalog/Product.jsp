@@ -27,7 +27,7 @@
 				<fmt:formatNumber value="${item.listPrice}" pattern="$#,##0.00" />
 			</td>
 			<td>
-				<a class="button" href="#">Add to Cart</a>
+				<a class="button" href="addItemToCart?workingItemId=${item.itemId}">Add to Cart</a>
 			</td>
 		</tr>
 	</c:forEach>

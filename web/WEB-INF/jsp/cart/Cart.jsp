@@ -6,10 +6,10 @@
 
 <div id="Catalog">
 
-<form id="Cart">
+<div id="Cart">
 
 <h2>Shopping Cart</h2>
-	<form action="#" method="post">
+	<form action="updateCartQuantities" method="post">
 		<table>
 			<tr>
 				<th><b>Item ID</b></th>
@@ -49,7 +49,7 @@
 					<td>
 						<fmt:formatNumber value="${cartItem.total}" pattern="$#,##0.00" /></td>
 					<td>
-						<a href="#?cartItem=${cartItem.item.itemId}">Remove</a>
+						<a class = "button" href="removeItemFromCart?workingItemId=${cartItem.item.itemId}">Remove</a>
 					</td>
 				</tr>
 			</c:forEach>
@@ -61,8 +61,9 @@
 			</tr>
 		</table>
 	</form>
+
 	<c:if test="${sessionScope.cart.numberOfItems > 0}">
-		<a href="#">Proceed to Checkout</a>
+		<a href="#" class="button">Proceed to Checkout</a>
 	</c:if>
 </div>
 
